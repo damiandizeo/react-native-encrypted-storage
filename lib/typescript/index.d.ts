@@ -1,4 +1,3 @@
-import EncryptedStorage from './EncryptedStorage';
-export type { EncryptedStorageOptions } from './EncryptedStorage';
+export { default } from './EncryptedStorage';
+export { EncryptedStorageOptions } from './EncryptedStorage';
 export * from './constants';
-export default EncryptedStorage;
