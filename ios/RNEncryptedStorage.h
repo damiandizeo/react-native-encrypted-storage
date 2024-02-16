@@ -2,7 +2,7 @@
 //  RNEncryptedStorage.m
 //  SATO
 //
-//  Created by Damian Di Ze0 on 2024-02-16.
+//  Created by Damian Di Zeo on 2024-02-16.
 //  Copyright © 2020 SATO Technoloiges Corp. All rights reserved.
 //
 

@@ -1,6 +1,6 @@
 # react-native-encrypted-storage
 
-This is a fork of https://github.com/emeraldsanto/react-native-encrypted-storage/tree/4.0.2.
+This is a fork of https://github.com/amsterdam-platform-creation/react-native-encrypted-storage.
 
 ## What was changed
 
@@ -22,6 +22,10 @@ The following options are supported:
 
   Default value: `kSecAttrAccessibleAfterFirstUnlock`
 
+- `keychainAccessGroup` (**iOS only**)
+
+  A key with a value that’s a string indicating the access group the item is in. [Read more](https://developer.apple.com/documentation/security/ksecattraccessgroup)
+
 - `storageName`
 
   A string for identifying a set of storage items. Should not contain path separators. Uses [kSecAttrService](https://developer.apple.com/documentation/security/ksecattrservice?language=objc) on iOS and [fileName](https://developer.android.com/reference/kotlin/androidx/security/crypto/EncryptedSharedPreferences?hl=en#create) on Android.
@@ -42,7 +46,7 @@ You can add this new release to your app's dependencies in `package.json`, using
 ```json
 {
   "dependencies": {
-    "react-native-encrypted-storage": "https://github.com/amsterdam-platform-creation/react-native-encrypted-storage.git#v4.1.2"
+    "react-native-encrypted-storage": "https://github.com/damiandizeo/react-native-encrypted-storage.git"
   }
 }
 ```
