@@ -1,9 +1,9 @@
 //
-//  RNEncryptedStorage.h
-//  EncryptedStorage
+//  RNEncryptedStorage.m
+//  SATO
 //
-//  Created by Yanick Bélanger on 2020-02-27.
-//  Copyright © 2020 Facebook. All rights reserved.
+//  Created by Damian Di Ze0 on 2024-02-16.
+//  Copyright © 2020 SATO Technoloiges Corp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
